@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family:'Times New Roman', Times, serif;
+ background-image: url("law image 1.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #161515;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: rgba(255,255,255,0.1);
+color: white;
+border-radius: 30px;
+outline: none;
+border: none;
+}
+
+input[type=submit] {
+  background-color:gray;
+  color: rgb(144, 226, 222);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:black;
+}
+
+/* Style the container/contact section */
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  font-size: 20px;
+  color:honeydew;
+}
+
+/* Clear floats after the columns */
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+h2{
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:rgb(2, 2, 2)
+}
+img{
+  float:left;
+}
+p{
+  text-indent: 20px;
+  flex: 1px;
+  
+}
+p:hover{
+  background-color:rgb(102, 195, 226);
+}
+div.transbox{
+  margin:30px;
+  background-color: #ffffff;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    
+  </div>
+  <div class="row">
+    <div class="column">
+      <p><img class="img1" src="men.png"  width="20" height="20">   NAME : Palanisamy</p><BR>
+      <p><img class="img2" src="telephone.png"  width="20" height="20"> PHONE NO :8566741250 </p><br>
+      <p><img class="img2" src="email.png"  width="20" height="20"> EMAIL : panalnisamy@gmail.com</p><br>
+      <p><img class="img2" src="house.png"  width="20" height="20"> ADDRESS :Doorno 5,13th  Malar Street,Chennai.</p><br>
+
+</div>
+    <div class="column">
+      <div clas="transbox"
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
