@@ -1,4 +1,5 @@
-* {box-sizing: border-box;}
+* {box-sizing: border-box;
+}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
@@ -71,7 +72,7 @@ nav {
    display: flex;
    flex-wrap: wrap;
    align-items: center;
-   background-color: #a2a8b1;
+
    justify-content: space-between;
    overflow: auto;
 }
@@ -86,11 +87,11 @@ ul li {
 nav ul li a{
    text-decoration: none; 
    cursor: pointer;
-   color: rgb(3, 3, 3);
+   color: rgb(14, 1, 1);
    padding-bottom: 4px;
 }
 nav li:hover{
-    background-color: #616870;
+    background-color: #ffffff;
     width:80px;
     height: 40px;
     padding-top: 2px;

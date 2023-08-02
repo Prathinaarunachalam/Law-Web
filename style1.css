@@ -10,7 +10,6 @@ nav {
    display: flex;
    flex-wrap: wrap;
    align-items: center;
-   background-color: #a2a8b1;
    justify-content: space-between;
    overflow: auto;
 }
@@ -25,13 +24,12 @@ ul li {
 nav ul li a{
    text-decoration: none; 
    cursor: pointer;
-   color: rgb(3, 3, 3);
+   color: rgb(22, 19, 19);
    padding-bottom: 4px;
 }
-nav li:hover{
-    background-color: #616870;
-    width:80px;
-    height: 40px;
+nav li a:hover{
+   color: #ffffff;
+    
     padding-top: 2px;
 }
 nav img{
@@ -45,13 +43,16 @@ body img{
 }
 .centered {
     position: absolute;
+    padding-right:5%;
     top: 50%;
-    left: 60%;
+    right: 1px;
     transform: translate(-50%, -50%);
 }
-.container img{
-    height:700px;
-    width:auto;
-    padding-top: 1px;
-    padding-bottom: 90px;
-}
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(rgba(247, 158, 98, 0.5),#cda5c1),url(assests/law5.avif);
+    background-size:cover;
+    background-position:center;
+    height: 100vh;
+  }
+ 
